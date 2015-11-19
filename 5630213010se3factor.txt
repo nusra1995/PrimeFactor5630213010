@@ -12,7 +12,7 @@ public class Homeworkprimefactor {
     /**
      * @param args the command line arguments
      */
-    // nusra pitak 010#3
+    // nusra pp 010#3
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
