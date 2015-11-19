@@ -1,0 +1,33 @@
+
+package homeworkprimefactor;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author notebook
+ */
+public class Homeworkprimefactor {
+
+    /**
+     * @param args the command line arguments
+     */
+    // nusra 010#3
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.print(" Enter value: ");
+        int d = in.nextInt();
+        int nFactors = 0;
+
+        System.out.println("The Factors of " + d + " are:");
+        for (int w = 2; w <= d; w++) {
+            if (d % w == 0) {
+                System.out.println(w);
+                ++nFactors;
+            }
+        }
+        System.out.println(d + " has " + nFactors + " factors");
+
+    }
+}
